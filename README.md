@@ -95,8 +95,6 @@
 
 感谢所有赞助者对本项目的支持，这些支持助力项目长期的功能更新与维护。也感谢每一位用户、贡献者和社区伙伴的使用、反馈、测试、分享与贡献。
 
-> [想出现在这里？](mailto:juricek.chen@gmail.com)
-
 <div>
   <p>
     <a href="https://www.ipwo.net/?ref=githubmetapi">

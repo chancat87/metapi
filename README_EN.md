@@ -110,8 +110,6 @@ The AI ecosystem is seeing a growing number of aggregation relay stations based 
 
 Thank you to all our sponsors for supporting the project's long-term feature development and maintenance. We are also grateful to every user, contributor, and community member for using, testing, sharing, and improving Metapi.
 
-> [Want to appear here?](mailto:juricek.chen@gmail.com)
-
 <div>
   <p>
     <a href="https://www.ipwo.net/?ref=githubmetapi">
