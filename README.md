@@ -74,7 +74,7 @@
 
 - 聚合面板： [New API](https://github.com/QuantumNous/new-api)、[One API](https://github.com/songquanpeng/one-api)、[OneHub](https://github.com/MartialBE/one-hub)、[DoneHub](https://github.com/deanxv/done-hub)、[Veloera](https://github.com/Veloera/Veloera)、[AnyRouter](https://anyrouter.top)、[Sub2API](https://github.com/Wei-Shaw/sub2api)
 - 通用兼容接口：OpenAI / Claude / Gemini compatible endpoints，以及 `cliproxyapi` / CPA、[OrcaRouter](https://www.orcarouter.ai)
-- 官方预设：阿里云 / 智谱 / 豆包 Coding Plan，DeepSeek，Moonshot(Kimi)，MiniMax，ModelScope，OrcaRouter
+- 官方预设：阿里云 / 智谱 / 豆包 Coding Plan，DeepSeek，Moonshot(Kimi)，MiniMax，ModelScope，OrcaRouter，无限星河
 - OAuth 连接：Codex、Claude、Gemini CLI、Antigravity
 
 详细接法见 [上游接入](./docs/upstream-integration.md) 与 [OAuth 管理](./docs/oauth.md)。
@@ -103,6 +103,18 @@
   </p>
   <p>
     IPWO 覆盖 195+ 地区动态住宅代理、静态住宅代理和不限量住宅代理，支持 HTTP、HTTPS 及 SOCKS5 协议，适用于 AI 开发者及 API 应用的多地区网络访问。可用于 AI 模型调用、API 访问、自动化及数据采集等场景。支持免费测试，专属折扣码：<code>0205</code>，欢迎通过<a href="https://www.ipwo.net/?ref=githubmetapi">专属链接</a>体验。
+  </p>
+  <p>
+    <a href="https://www.infistar.cc/register?aff=JK4FA3JK&ref_source=link">
+      <img src="docs/sponsors/infistar-banner.png" alt="Infistar.cc 无限星河" width="100%">
+    </a>
+  </p>
+  <p>
+    感谢 <a href="https://www.infistar.cc/register?aff=JK4FA3JK&ref_source=link">Infistar.cc 无限星河</a> 赞助本项目，为 Metapi 智能路由补充稳定上游：<br>
+    ⚡ 稳定高效的模型通道：价格低至官方渠道 1 折，模型倍率公开透明，多节点冗余保障，有效降低限流、429 与断连影响。<br>
+    🧠 主流模型一站式接入：一个 API Key 即可调用 Claude、ChatGPT、Gemini、Kimi、GLM、DeepSeek 等主流模型。<br>
+    🔀 契合 Metapi 智能路由：可作为 OpenAI、Claude、Gemini 兼容上游接入，配合 Metapi 的模型自动发现、成本优选与故障转移，为 Cursor、Claude Code、Codex、Open WebUI 等工具提供稳定模型服务。<br>
+    🎁 Metapi 用户专属福利：通过<a href="https://www.infistar.cc/register?aff=JK4FA3JK&ref_source=link">专属推广链接</a>注册即可领取 5 美元等值测试额度 / 首充专属优惠，快速添加上游并开始调用。
   </p>
 </div>
 
