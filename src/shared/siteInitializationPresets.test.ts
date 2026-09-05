@@ -24,6 +24,7 @@ describe('siteInitializationPresets', () => {
       'modelscope-claude',
       'doubao-coding-openai',
       'orcarouter-openai',
+      'infistar-openai',
     ]));
 
     const openaiPreset = getSiteInitializationPreset('codingplan-openai');
@@ -133,6 +134,19 @@ describe('siteInitializationPresets', () => {
       recommendedSkipModelFetch: true,
     });
     expect(orcaRouterPreset?.recommendedModels).toEqual(['orcarouter/auto']);
+
+    const infistarPreset = getSiteInitializationPreset('infistar-openai');
+    expect(infistarPreset).toMatchObject({
+      id: 'infistar-openai',
+      label: '无限星河',
+      providerLabel: '无限星河',
+      platform: 'openai',
+      defaultUrl: 'https://infistar.cc/v1',
+      initialSegment: 'apikey',
+      recommendedSkipModelFetch: false,
+      docsUrl: 'https://doc.infistar.cc/api-overview',
+    });
+    expect(infistarPreset?.recommendedModels).toEqual(['qwen-plus']);
   });
 
   it('detects Aliyun CodingPlan endpoints by URL', () => {
@@ -208,6 +222,15 @@ describe('siteInitializationPresets', () => {
     expect(detectSiteInitializationPreset('https://api.orcarouter.ai')).toMatchObject({
       id: 'orcarouter-openai',
       platform: 'orcarouter',
+    });
+
+    expect(detectSiteInitializationPreset('https://infistar.cc/v1')).toMatchObject({
+      id: 'infistar-openai',
+      platform: 'openai',
+    });
+    expect(detectSiteInitializationPreset('https://infistar.cc/')).toMatchObject({
+      id: 'infistar-openai',
+      platform: 'openai',
     });
   });
 

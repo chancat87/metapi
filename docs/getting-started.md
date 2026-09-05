@@ -140,7 +140,7 @@ npm run dev
 - 按你手上的上游形态选择：
   - 有后台面板：`new-api` / `one-api` / `one-hub` / `done-hub` / `veloera` / `anyrouter` / `sub2api`
   - 通用兼容接口：`openai` / `claude` / `gemini` / `cliproxyapi` / `orcarouter`
-  - 官方入口：直接在下拉里选对应**官方预设**，例如阿里云 / 智谱 / 豆包 Coding Plan，DeepSeek，Moonshot，MiniMax，ModelScope，OrcaRouter
+  - 官方入口：直接在下拉里选对应**官方预设**，例如阿里云 / 智谱 / 豆包 Coding Plan，DeepSeek，Moonshot，MiniMax，ModelScope，OrcaRouter，无限星河
 - 平台通常可自动检测；如果因为防护页、反向代理或特殊路径导致检测失败，再手动选择。
 - 可选是否开启系统代理，方便国内机器访问国外中转站。
 - 可选站点权重，站点权重越大，路由将更加频繁使用这个站点的模型。
@@ -196,7 +196,7 @@ npm run dev
 - `claude`
 - `gemini`
 - `cliproxyapi`
-- 所有官方预设（Coding Plan、DeepSeek、Moonshot、MiniMax、ModelScope 等）
+- 所有官方预设（Coding Plan、DeepSeek、Moonshot、MiniMax、ModelScope、无限星河等）
 
 #### 2C. Provider 原生授权：走 OAuth 管理
 

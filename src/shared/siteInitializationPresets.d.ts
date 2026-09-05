@@ -12,7 +12,8 @@ export type SiteInitializationPresetId =
   | 'modelscope-openai'
   | 'modelscope-claude'
   | 'doubao-coding-openai'
-  | 'orcarouter-openai';
+  | 'orcarouter-openai'
+  | 'infistar-openai';
 export type SiteInitializationPreset = {
   id: SiteInitializationPresetId;
   label: string;

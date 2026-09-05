@@ -12,7 +12,7 @@ Metapi 当前支持三类上游接入方式：
 
 1. **中转聚合平台** — New API / One API / OneHub / DoneHub / Veloera / AnyRouter / Sub2API / CPA 等
 2. **官方 API 端点** — OpenAI / Claude (Anthropic) / Gemini (Google) 直连
-3. **官方预设与 OAuth 连接** — Coding Plan / DeepSeek / Moonshot / MiniMax / ModelScope 等官方兼容入口，以及 Codex / Claude / Gemini CLI / Antigravity 的浏览器授权登录
+3. **官方预设与 OAuth 连接** — Coding Plan / DeepSeek / Moonshot / MiniMax / ModelScope / 无限星河等官方兼容入口，以及 Codex / Claude / Gemini CLI / Antigravity 的浏览器授权登录
 
 其中：
 
@@ -397,6 +397,7 @@ CPA 这类站点推荐直接使用 **API Key**：
 | ModelScope / OpenAI | `openai` | `https://api-inference.modelscope.cn/v1` | 适合开源编程模型兼容接入 |
 | ModelScope / Claude | `claude` | `https://api-inference.modelscope.cn` | 适合 Claude 兼容接入 |
 | 豆包 Coding Plan / OpenAI | `openai` | `https://ark.cn-beijing.volces.com/api/coding/v3` | 适合火山方舟 Coding Plan |
+| 无限星河 | `openai` | `https://infistar.cc/v1` | OpenAI 兼容入口；模型以当前 API Key 的实时模型列表为准 |
 
 #### 使用建议
 
@@ -520,6 +521,7 @@ Metapi 支持自动识别站点类型，当前检测优先级如下：
 | `api-inference.modelscope.cn/v1` | `modelscope-openai` |
 | `api-inference.modelscope.cn` | `modelscope-claude` |
 | `ark.cn-beijing.volces.com/api/coding/v3` | `doubao-coding-openai` |
+| `infistar.cc` 或 `infistar.cc/v1` | `infistar-openai` |
 
 > [!NOTE]
 > 智谱 Coding Plan 的 Claude 兼容入口当前不会按 URL 强制自动识别，更适合手动选预设。

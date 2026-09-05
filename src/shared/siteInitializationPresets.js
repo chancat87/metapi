@@ -82,6 +82,10 @@ const ORCAROUTER_RECOMMENDED_MODELS = Object.freeze([
   'orcarouter/auto',
 ]);
 
+const INFISTAR_RECOMMENDED_MODELS = Object.freeze([
+  'qwen-plus',
+]);
+
 const SITE_INITIALIZATION_PRESETS = Object.freeze([
   Object.freeze({
     id: 'codingplan-openai',
@@ -291,6 +295,21 @@ const SITE_INITIALIZATION_PRESETS = Object.freeze([
     docsUrl: 'https://www.orcarouter.ai',
     matches(url) {
       return matchesHostAndPaths(url, 'api.orcarouter.ai', ['/', '/v1']);
+    },
+  }),
+  Object.freeze({
+    id: 'infistar-openai',
+    label: '无限星河',
+    providerLabel: '无限星河',
+    description: '适合无限星河 OpenAI 兼容入口，支持通过一个 API Key 接入多家主流模型；模型以当前 API Key 的实时模型列表为准。',
+    platform: 'openai',
+    defaultUrl: 'https://infistar.cc/v1',
+    initialSegment: 'apikey',
+    recommendedSkipModelFetch: false,
+    recommendedModels: INFISTAR_RECOMMENDED_MODELS,
+    docsUrl: 'https://doc.infistar.cc/api-overview',
+    matches(url) {
+      return matchesHostAndPaths(url, 'infistar.cc', ['/', '/v1']);
     },
   }),
 ]);
